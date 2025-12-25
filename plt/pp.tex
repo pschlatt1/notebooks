@@ -1,0 +1,18 @@
+\documentclass[a4paper]{article}
+
+\usepackage{graphicx}
+\usepackage{pgf}
+
+\begin{document}
+\def\mathdefault#1{#1}
+
+\title{This is the test document}
+
+\includegraphics[scale=0.4]{foo.pdf}
+
+\scalebox{0.4}{\input{foo.pgf}}
+
+
+
+
+\end{document}
